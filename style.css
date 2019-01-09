@@ -1,0 +1,188 @@
+/** {outline: 1px dotted red;}*/
+
+* {font-family: 'Courier New', sans-serif;}
+
+body {
+	background-color: white;
+    }
+
+.header {
+	width: 80%;
+	height: auto;
+	margin: auto;
+	text-align: center;
+}
+
+select {
+	color: #090818;
+	border-radius: 50px;
+	padding: 8px;
+	font-size: 18px;
+}
+
+.container-2 {
+	width: 80%;
+	min-height: 500px;
+	margin: auto;
+	text-align: center;
+	line-height: 20px;
+}
+
+.quotes-generated {
+	height: auto;
+	margin: auto;
+	line-height: 50px;
+}
+
+.container-3 {
+	width: 80%;
+	height: 100px;
+	margin: auto;
+	text-align: center;
+	line-height: 80px;
+}
+
+.button {
+	border-radius: 50px;
+	background-color: rgb(182, 137, 255);
+	margin: 10px;
+	border: 1px solid rgb(182, 137, 255);
+	color: white;
+	font-size: 20px;
+	padding: 5px 20px;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #090818;
+	color: rgb(182, 137, 255);
+	border: 1px solid #090818;
+}
+
+#demo {
+	font-size: 19px;
+	color: white;
+}
+
+footer {
+	width: auto;
+	height: 50px;
+	margin: auto;
+	padding-top: 20px;
+	font-size: 12px;
+	text-align: center;
+	color: #939bae;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CODEPEN EXAMPLE*/
+/*@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300';
+
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+	box-sizing: border-box;
+	font-weight: 300;
+	padding: 0;
+	margin: 0;
+}
+
+.title {
+	text-align: center;
+	font-size: 24px;
+}
+
+.btn-wrapper{
+	position: fixed;
+	top: calc(50% - 22px);
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.btn{
+	display: inline-block;
+	box-shadow: none;
+	appearance: none;
+	border: 0;
+	outline: 0;
+	background-color: rgb(182, 137, 255); /*COLOURS*/
+/*	height: 45px;
+	line-height: 42px;
+	padding: 0 30px;
+	font-size: 20px;
+	border-radius: 30px;
+	color: rgb(40, 45, 50);
+	cursor: pointer;
+	transition: all .5s;
+	transition-timing-function: cubic-bezier(.2, 3, .4, 1);
+	user-select: none;
+	
+	&:hover{
+		transform: scale(1.1, 1.1);
+	}
+	
+	&:active{
+		transform: scale(1.05, 1.05);
+	}
+}*/
+
+/* COLOURS
+		'255, 122, 206', Pink
+		'0, 157, 255', Blue
+		'0, 240, 168', Green
+		'0, 240, 120'
+		162, 98, 252 Violet
+		159, 137, 255
+		182, 137, 255

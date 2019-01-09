@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quote Generator</title>
+	  	<meta charset="utf-8">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body id="body">
+
+		<header class="header">
+
+				<h1 style="font-family:Helvetica, sans-serif; font-size:70px; color:#00FFCC">HOW'S YOUR MOOD TODAY?</h1> 
+
+		</header>
+
+		<!--GENERATED QUOTES CONTAINER -->
+		<section class="container-2">
+				<select id="getQuoteSet" onchange="onChangeQuote1(this)">
+					<option value="quoteGenerator">Select your mood quotes</option>
+				    <option value="quoteGenerator1">I feel positive!</option>
+				    <option value="quoteGenerator2">Negative, go away!</option>
+			  	</select> 
+
+			  	<!--How many quotes-->
+				<select name="getQuoteNumber" id="getQuoteNumber">
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="4">4</option>
+				    <option value="5">5</option>
+			  	</select> 
+
+			  	<button id="generateButton" type="button" class="button">Generate Quotes</button>
+
+			  	<div id="demo" class="quotes-generated"></div>
+
+		</section> 
+
+		<section class="container-3">
+			<button onclick="reset()" type="button" class="button">Reset</button>
+		</section>
+
+		<footer>Quote Generator Copyright © 2018 LVFR</footer>
+
+		<script src="javascript.js"></script>
+
+	</body>
+</html>

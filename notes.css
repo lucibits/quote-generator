@@ -1,0 +1,126 @@
+body {
+	background-color: white;
+    animation: colorchange 20s; /* animation-name followed by duration in seconds*/
+      -webkit-animation: colorchange 50s; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: #FFDCCF;}
+      25%  {background: #FFECE5;}
+      50%  {background: white;}
+      75%  {background: #F7FFFF;}
+      100% {background: #E0FFFF;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: #FFDCCF;}
+      25%  {background: #FFECE5;}
+      50%  {background: white;}
+      75%  {background: #F7FFFF;}
+      100% {background: #E0FFFF;}
+    }
+
+
+
+/*font-family: 'Source Sans Pro', sans-serif;*/
+
+/*COLOURS*/
+color navy: #232230
+navymore: 090818
+Lightblue: 232230
+lightbluemore: 58b6fa
+pink: 232230
+pinkmore: dc4d7b
+pinkmoremore: c43477
+yellow: f6dc8a
+grey: 939bae
+greymore: 296b8c
+
+violet: rgb(182, 137, 255);
+verde: #00FFCC;
+
+/*SUBJECT*/
+
+person, place, think, idea
+
+
+/*VERB*/
+run
+
+talk
+
+dance
+
+shout
+
+cook
+
+Examples of verbs expressing mental action:
+
+think
+
+believe
+
+fear
+
+want
+
+wonder
+
+Examples of linking verbs:
+
+am
+
+is
+
+are
+
+was
+
+feels (She feels sick.)
+
+seem (They seem nice.)
+
+
+
+
+var x = Number (prompt("Enter a value:"));
+var result = x * 3 - 1;
+result += 5;
+console.log(result);
+
+
+//W3SCHOOL TEST
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Array Methods</h2>
+
+<button onclick="document.getElementById('demo').innerHTML = quote;">Click Me</button>
+
+<p id="demo"></p>
+
+<script>
+var subject = ['She', 'He', 'The Cat', 'The Dog', 'A stranger'];
+var verb = ['touched', 'moved', 'stared', 'grabbed', 'pushed'];
+var directObject = ['the piano', 'the food', 'the glass', 'the cookies', 'the ball'];
+
+//Randomly select a subject
+var randomSubject = subject[Math.floor(Math.random() * subject.length)];
+//Randomly select a verb
+var randomVerb = verb[Math.floor(Math.random() * verb.length)];
+//Randomly select a directObject
+var randomDirectObject = directObject[Math.floor(Math.random() * directObject.length)];
+
+//Concatenate random values into a string
+
+var quote = randomSubject.concat(" ",randomVerb," ", randomDirectObject); 
+
+//document.getElementById("demo").innerHTML = quote;
+</script>
+
+</body>
+</html>
